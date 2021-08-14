@@ -1,0 +1,20 @@
+1)Create Home screen
+2)Add side menu in Home screen.
+3)Add Name and profile image in side menu.
+4)Navigate to Profile screen on Profile image click.
+5)Edit user details on Profile screen.
+
+
+QUESTIONS I ASKED
+
+1)Will the user details already be present
+2)Will the user had to put the details and edit it .
+3)Is it continuation of previous word or its fresh .
+4)will the name change on Home screen if we change it in user details*
+
+QUESTIONS ANSWERED
+
+1)User details will be there already.
+2)User can then edit his/her details.
+3)This is new task.
+4)Yes name and image will be changed in side menu as well.

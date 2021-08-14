@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:id="@+id/profilePic"
+            android:src="@drawable/ic_launcher_background"
+            ></ImageView>
+        <TextView
+            android:id="@+id/browse"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="browse"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            ></TextView>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="NAME"
+            android:inputType="textPersonName"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/NAME"
+            ></EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/EMAIL"
+            ></EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="PASS"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/PASS"
+            ></EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CONTACT"
+            android:inputType="phone"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/CONTACT"
+            ></EditText>
+
+
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SIGNUP"
+
+            ></Button>
+    </LinearLayout>
+
+</ScrollView>

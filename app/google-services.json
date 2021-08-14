@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43519906882",
+    "project_id": "aut2-ae95e",
+    "storage_bucket": "aut2-ae95e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43519906882:android:415056d0a810e85ac389db",
+        "android_client_info": {
+          "package_name": "com.tr.imsagesendingtofirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43519906882-vj03blhg95h3db7g8p6831h332r73bg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8LWkkxjD91pk5XMStbvpAbsCzyFpOydo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43519906882-vj03blhg95h3db7g8p6831h332r73bg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

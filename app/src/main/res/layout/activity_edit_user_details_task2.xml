@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditUserDetailsTask2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="23dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Edit User Details"
+                android:textAlignment="center"
+                android:textSize="55sp"></TextView>
+
+
+            <EditText
+
+                android:layout_marginTop="56dp"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NAME"
+                android:textAlignment="center"
+                android:id="@+id/upDateNameEdtxt"
+                ></EditText>
+
+
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CONTACT"
+                android:textAlignment="center"
+                android:id="@+id/upDateContactEdtxt"
+                ></EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="update"
+                android:id="@+id/upDateBtn"
+                ></Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+What you need to do is create 3 screens
+Splash screen
+Login screen
+Signup screen
+User will login with Phone number through Firebase Auth and 
+create an account with profile image, name, email and contact number. 
+User details will be stored in Firestore and
+ profile image will be stored in Firebase Storage.
+ Use icons and colors of your choice.
+Give your feedback tomorrow.

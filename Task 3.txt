@@ -1,0 +1,8 @@
+After login, we shouldn't login again. Instead we'll
+ navigate to home screen directly if we are already logged in.
+Implement Logout button in side menu.
+
+
+Store user details in shared preferences upon successful login.
+ And after that create a login to check every time if user is
+ already logged in go to Home screen, else go to Login screen.
